@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Salud Activa · Historias clínicas</string>
+    <string name="records_title">Mis estudios médicos</string>
+    <string name="login_title">Historias clínicas</string>
+    <string name="login_subtitle">Inicia sesión para consultar tus estudios y resultados.</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="search_records">Buscar por nombre o tipo</string>
+    <string name="empty_records">Aún no tienes estudios registrados.</string>
+    <string name="no_search_results">No hay estudios que coincidan con la búsqueda.</string>
+    <string name="add_record">Agregar estudio</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="title">Nombre del estudio</string>
+    <string name="type">Tipo</string>
+    <string name="date">Fecha (AAAA-MM-DD)</string>
+    <string name="result">Resultado breve</string>
+    <string name="document_url">Enlace al documento (opcional)</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_confirmation">¿Eliminar este estudio del historial?</string>
+    <string name="loading">Cargando…</string>
+    <string name="error_generic">No se pudo completar la solicitud. Intenta de nuevo.</string>
+    <string name="validation_required">Completa nombre, tipo, fecha y resultado.</string>
+    <string name="date_format_error">La fecha debe tener el formato AAAA-MM-DD.</string>
+    <string name="document_link">Abrir documento</string>
+</resources>
