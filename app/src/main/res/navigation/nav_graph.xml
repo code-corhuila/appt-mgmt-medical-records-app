@@ -1,0 +1,27 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.saludactiva.medicalrecords.ui.LoginFragment"
+        android:label="@string/login_title">
+        <action
+            android:id="@+id/action_loginFragment_to_recordsFragment"
+            app:destination="@id/recordsFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recordsFragment"
+        android:name="com.saludactiva.medicalrecords.ui.RecordsFragment"
+        android:label="@string/records_title">
+        <action
+            android:id="@+id/action_recordsFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/recordsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
